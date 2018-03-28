@@ -1,0 +1,40 @@
+$font-size: 16px !default;
+@function rem($px) {
+    @return $px / $font-size * 1rem;
+}
+
+@function color() {
+    $colors: 'red', 'yellow', 'orange', 'pink', 'black';
+    $nth: nth($colors, random(5));
+    @return $nth;
+}
+
+@mixin box-sizing($sizing) {
+    -webkit-box-sizing: $sizing;
+    -moz-box-sizing: $sizing;
+    box-sizing: $sizing;
+}
+
+@mixin clamp($num) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: #{$num};
+}
+
+@mixin rotate($num) {
+    transform: rotate($num);
+    -ms-transform: rotate($num);
+    -moz-transform: rotate($num);
+    -webkit-transform: rotate($num);
+    -o-transform: rotate($num);
+}
+
+.flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+}

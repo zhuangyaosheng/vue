@@ -1,0 +1,2 @@
+1、将config/index.js 里面的 assetsPublicPath:'/' 改为assetsPublicPath:'./'
+2、build/util.js里面的publicPath改为：publicPath：'../../'
