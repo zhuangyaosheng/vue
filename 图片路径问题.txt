@@ -1,3 +1,17 @@
 1、将config/index.js 里面的 assetsPublicPath:'/' 改为assetsPublicPath:'./'
-2、build/util.js里面的publicPath改为：publicPath：'../../'
+
+2、build/util.js里面
+if (options.extract) {
+      
+	return ExtractTextPlugin.extract({
+        
+		use: loaders,
+        
+		fallback: 'vue-style-loader',
+        
+		publicPath:'../../'
+      
+	})
+    
+}
 3、测试
