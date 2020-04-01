@@ -17,3 +17,4 @@ if (options.extract) {
 3¡¢²âÊÔ2
 4¡¢dev
 5¡¢master
+6¡¢merge
