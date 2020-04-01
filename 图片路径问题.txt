@@ -27,3 +27,4 @@ if (options.extract) {
 A commit
 B commit
 AAAAAAA
+BBBBBBB
