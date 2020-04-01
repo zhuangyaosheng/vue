@@ -18,3 +18,4 @@ if (options.extract) {
 4、dev
 5、master
 6、merge
+7、廈茄
