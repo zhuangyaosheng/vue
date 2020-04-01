@@ -21,3 +21,4 @@ if (options.extract) {
 7、廈茄
 8、fixbug
 9、fixbug3
+10、fixbug4
