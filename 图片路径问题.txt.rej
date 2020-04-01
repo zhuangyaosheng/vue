@@ -1,0 +1,10 @@
+diff a/图片路径问题.txt b/图片路径问题.txt	(rejected hunks)
+@@ -19,4 +19,5 @@
+ 5��master
+ 6��merge
+ 7������
+-8��fixbug
+\ No newline at end of file
++8��fixbug
++9��fixbug2
+\ No newline at end of file
