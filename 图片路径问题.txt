@@ -1,4 +1,4 @@
-1¡¢½«config/index.js ÀïÃæµÄ assetsPublicPath:'/' ¸ÄÎªassetsPublicPath:'./'
+﻿1¡¢½«config/index.js ÀïÃæµÄ assetsPublicPath:'/' ¸ÄÎªassetsPublicPath:'./'
 
 2¡¢build/util.jsÀïÃæ
 if (options.extract) {
@@ -26,3 +26,4 @@ if (options.extract) {
 11、workerA
 A commit
 B commit
+AAAAAAA
