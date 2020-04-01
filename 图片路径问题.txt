@@ -20,4 +20,3 @@ if (options.extract) {
 6、merge
 7、廈茄
 8、fixbug
-9、fixbug2
