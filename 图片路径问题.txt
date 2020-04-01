@@ -1,6 +1,6 @@
-1¡¢½«config/index.js ÀïÃæµÄ assetsPublicPath:'/' ¸ÄÎªassetsPublicPath:'./'
+1Â¡Â¢Â½Â«config/index.js Ã€Ã¯ÃƒÃ¦ÂµÃ„ assetsPublicPath:'/' Â¸Ã„ÃÂªassetsPublicPath:'./'
 
-2¡¢build/util.jsÀïÃæ
+2Â¡Â¢build/util.jsÃ€Ã¯ÃƒÃ¦
 if (options.extract) {
       
 	return ExtractTextPlugin.extract({
@@ -14,14 +14,15 @@ if (options.extract) {
 	})
     
 }
-3¡¢²âÊÔ2
-4¡¢dev
-5¡¢master
-6¡¢merge
-7¡¢Öü²Ø
-8¡¢fixbug
-9¡¢fixbug3
-10¡¢fixbug4
-7¡¢Öü²Ø
-11¡¢workerA
+3ã€æµ‹è¯•2
+4ã€dev
+5ã€master
+6ã€merge
+7ã€è´®è—
+8ã€fixbug
+9ã€fixbug3
+10ã€fixbug4
+7ã€è´®è—
+11ã€workerA
+A commit
 B commit
